@@ -1,0 +1,76 @@
+
+
+.container {
+  width: 80%;
+  padding: 100px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  min-width: 60%;
+  border: none;
+  outline: none;
+  font-size: 22px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.active {
+  background-color: rgb(141, 236, 134);
+}
+
+.cell {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  border: 2px solid #969595;
+  border-radius: 10px;
+}
+
+button {
+  margin-right: 7px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 2px solid #969595;
+  cursor: pointer;
+}
+
+.addBtn {
+  background-color: rgb(255, 224, 167);
+}
+
+.addBtn:hover {
+  background-color: rgb(253, 203, 110);
+}
+
+.removeBtn {
+  background-color: rgb(255, 170, 170);
+}
+
+.removeBtn:hover   {
+  background-color: rgb(255, 113, 113);
+}
+
+.editBtn {
+  background-color: rgb(193, 192, 250);
+}
+
+.editBtn:hover {
+  background-color: rgb(132, 130, 255);
+}
+
+.doneBtn {
+  background-color: rgb(210, 250, 192);
+}
+
+.doneBtn:hover {
+  background-color: rgb(169, 247, 132);
+}
